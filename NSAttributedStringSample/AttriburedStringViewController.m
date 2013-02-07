@@ -50,9 +50,7 @@
     UIFont *existingFont = attribute[NSFontAttributeName] ;
         if(existingFont) fontSize = existingFont.pointSize;
     UIFont *font = [sender.titleLabel.font fontWithSize:fontSize ];
-                            
-                            
-                            [self addSelectedLabelAttribute:@{ NSFontAttributeName  :font}];
+    [self addSelectedLabelAttribute:@{ NSFontAttributeName  :font}];
     
     
 }
