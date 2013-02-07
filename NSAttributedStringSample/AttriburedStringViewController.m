@@ -56,6 +56,13 @@
     
     
 }
+- (IBAction)noOutline {
+    [self addSelectedLabelAttribute:@{NSStrokeWidthAttributeName: @0}];
+}
+- (IBAction)outline
+{
+    [self addSelectedLabelAttribute:@{NSStrokeWidthAttributeName: @5}];
+}
 
 - (IBAction)noUnderline
 {
